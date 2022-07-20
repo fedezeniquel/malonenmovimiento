@@ -1,0 +1,29 @@
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+    nav {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    img {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+/* Smartphone*/
+@media (max-width: 480px){
+    nav {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    img {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+    .cuadrante {
+        grid-template-columns: 1fr;
+    }
+}
